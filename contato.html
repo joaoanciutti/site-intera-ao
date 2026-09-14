@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Clássica - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h1 id="logo">Barbearia Clássica</h1>
+        <nav class="menu-navegacao">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+        <h2 class="titulo-secao">Agende seu Horário</h2>
+        
+        <section class="info-endereco">
+            <h3>Nossa Localização</h3>
+            <p>Rua Vicente Machado, Centro - Guarapuava, PR</p>
+            <p>Telefone: (42) 99999-0000</p>
+        </section>
+
+        <section id="area-agendamento">
+            <form class="formulario-contato" action="#" method="POST">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+                <label for="servico-desejado">Serviço de Interesse:</label>
+                <input type="text" id="servico-desejado" name="servico-desejado" placeholder="Ex: Corte e Barba" required>
+
+                <label for="mensagem">Mensagem / Preferência de horário:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Qual dia e horário você prefere?" required></textarea>
+
+                <button type="submit" class="btn-agendar">Confirmar Agendamento</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2026 Barbearia Clássica. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
